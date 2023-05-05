@@ -5,6 +5,7 @@
                 <SingleProject
                     :project="project"
                     @delete="handleDelete"
+                    @complete="handleComplete"
                 ></SingleProject>
             </div>
         </div>
@@ -16,7 +17,7 @@ import SingleProject from "../components/SingleProject.vue";
 export default {
     name: "Home",
     components: { SingleProject },
-    
+
     data() {
         return {
             projects: [],
@@ -33,6 +34,10 @@ export default {
             this.projects = this.projects.filter(
                 (project) => project.id !== id
             );
+        },
+        handleComplete(id) {
+            let p = this.projects.find((project) => project.id === id);
+            p.complete = !p.complete;
         },
     },
 };
