@@ -23,6 +23,12 @@
       "details": "New project added",
       "complete": false,
       "id": 5
+    },
+    {
+      "title": "Project Planner",
+      "details": "Project Planner is created",
+      "complete": false,
+      "id": 6
     }
   ]
 }
