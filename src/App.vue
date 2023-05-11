@@ -1,5 +1,3 @@
-
-
 <template>
   <header>
 
@@ -18,10 +16,4 @@ export default {
 </script>
 
 <style>
-header{
-  display:flex;
-  align-items: center;
-  width:100%;
-  height:110px;
-}
 </style>
