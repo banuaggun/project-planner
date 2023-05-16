@@ -1,10 +1,14 @@
 /*@import './base.css'; */
 
+html, body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-html, body, #app{
+html, body, #app, header{
   margin:0;
   padding:0;
   box-sizing: border-box;
+  color:#4b4949;
 }
 #app {
   max-width: 1100px;
@@ -12,24 +16,22 @@ html, body, #app{
   margin: 0 auto;
 }
 
-a,
-.green {
+a {
   text-decoration: none;
   transition: 0.4s;
+}
+
+button{
+  margin:0;
+  padding:0;
 }
 
 @media (hover: hover) {
   a:hover {
     background-color: transparent;
-    background-color:#59b65a;
+    background-color:#9866b9;
     color:#fff;
     padding:4px;
   }
 }
 
-@media (max-width:500px){
-  #app{
-    width:100%;
-    max-width:280px;
-  }
-}

@@ -12,6 +12,7 @@
                 <span class="material-icons tick" @click="toggleComplete"
                     >done</span
                 >
+                
             </div>
         </div>
         <div class="details" v-if="showDetails">
