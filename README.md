@@ -27,3 +27,17 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+### Connect Server
+
+```sh
+npm install -g json-server
+```
+
+### Connect Database
+
+```sh
+json-server --watch ./data/db.json
+```
+
