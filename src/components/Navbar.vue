@@ -1,20 +1,7 @@
 <template>
-
   <nav class="main-nav">
-    
-    <div class="main-nav-left">
     <router-link :to="{name:'Home'}">Projects</router-link>
     <router-link :to="{name:'AddProject'}">New Project</router-link>
-    </div>
-    <div class="main-nav-right">
-      <a href="https://github.com/banuaggun/project-planner" target="_blank">
-        <i class="fa fa-github"></i>
-      </a>
-     <a href="https://github.com/banuaggun/project-planner" target="_blank">
-        <i class="fa fa-linkedin"></i>
-      </a>
- 
-    </div>
   </nav>
 </template>
 <script>
@@ -26,13 +13,12 @@ export default {
 <style>
   .main-nav{
     display:flex;
-    justify-content:space-between;
+    justify-content:flex-start;
     align-items:center;
     border:none;
     width:100%;
     font-weight: 600;
-    height:60px;
-    
+    height:60px; 
   }
   .main-nav a{
     display:inline-block;
@@ -54,13 +40,9 @@ export default {
     .main-nav{
       width:100%;
       height:80px;
-    }
-    .main-nav-left{
       padding-left:20px;
     }
-    .main-nav-right{
-      padding-right:20px;
-    }
+    
     .main-nav a{
       font-size:14px;
       margin:0 5px;
@@ -69,11 +51,8 @@ export default {
   }
 
   @media (min-width:701px) and (max-width:1100px){
-    .main-nav-left{
+    .main-nav{
       padding-left:40px;
-    }
-    .main-nav-right{
-      padding-right:40px;
     }
   }
 </style>
