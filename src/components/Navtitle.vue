@@ -52,6 +52,7 @@ export default {
 @media (max-width:700px){
   .title-area-right{
     padding-right:20px;
+    border:1px solid blue;
   }
   .title-area a{
     font-size:14px;

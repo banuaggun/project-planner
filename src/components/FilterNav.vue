@@ -18,7 +18,6 @@ export default {
 <style>
 .filter-nav{
   margin:60px 0 20px 20px;
-  border:1px solid blue;
 }
 .filter-nav button{
   padding:15px 30px;
