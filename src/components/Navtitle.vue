@@ -15,10 +15,10 @@
 </template>
 <script>
 export default {
-  
+  name:"NavTitle"
 }
 </script>
-<style>
+<style lang="css">
 .title-area{
   display:flex;
   flex-direction: column;
@@ -50,9 +50,12 @@ export default {
   color:#4b4949;
 }
 @media (max-width:700px){
+  .title-area{
+    overflow-x:hidden;
+  }
   .title-area-right{
+    margin-top:20px;
     padding-right:20px;
-    border:1px solid blue;
   }
   .title-area a{
     font-size:14px;

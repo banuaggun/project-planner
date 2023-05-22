@@ -28,8 +28,9 @@ export default {
   font-size:14px;
   text-transform:uppercase;
   font-weight:bold;
+  text-align:center;
   border-radius:20px;
-  border:1px solid #8e8e8e;
+  border:1px solid rgba(142, 142, 142, 0.8);
   cursor:pointer;
 }
 .filter-nav button:nth-child(1),
@@ -43,16 +44,18 @@ export default {
 
 @media (max-width:700px){
   .filter-nav{
-    margin:40px 10px 20px 10px;
+    overflow-x:hidden;
+    margin:40px 8px 20px 8px;
     display:flex;
     justify-content: flex-start;
   }
   .filter-nav button{
-    padding:12px 18px;
+    text-align:center;
+    padding:10px 15px;
   }
   .filter-nav button:nth-child(1),
 .filter-nav button:nth-child(2){
-  margin-right:5px;
+  margin-right:3px;
 
 }
 }

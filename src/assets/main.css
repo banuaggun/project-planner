@@ -8,7 +8,8 @@ html, body, #app, header{
   margin:0;
   padding:0;
   box-sizing: border-box;
-  color:#4b4949;
+  color:#151515;
+  overflow-x:hidden;
 }
 #app {
   max-width: 1100px;
@@ -27,7 +28,7 @@ button{
 }
 
 @media (hover: hover) {
-  a:hover {
+  .main-nav a:hover {
     background-color: transparent;
     background-color:#9866b9;
     color:#fff;
