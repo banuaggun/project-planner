@@ -91,6 +91,7 @@ form button{
   border-radius:7px;
   font-size:1rem;
   font-weight:600;
+  cursor:pointer;
 }
 
 @media (max-width:1100px){
